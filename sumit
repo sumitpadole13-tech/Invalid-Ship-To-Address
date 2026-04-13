@@ -1,0 +1,102 @@
+Invalid Ship-To Address Order Correction
+Workflow
+A step-by-step guide for identifying, verifying, correcting, and releasing orders with invalid
+shipping addresses using Google Maps and Nexus.
+Table of Contents
+Overview
+Prerequisites
+Workflow Steps
+Address Verification via Google Maps
+Correcting Address in Nexus
+Releasing the Order
+Common Invalid Address Scenarios
+Best Practices
+FAQs
+Overview
+This workflow guides order management teams through the process of:
+1. 2. 3. 4. Identifying orders flagged with invalid ship-to addresses
+Verifying the correct address using Google Maps
+Updating the address in the Nexus system
+Releasing the corrected order for fulfillment
+Prerequisites
+Access to the Nexus Order Management System
+Access to Google Maps (maps.google.com)
+Appropriate user permissions to edit and release orders in Nexus
+Customer contact information (for cases where address cannot be verified
+independently)
+Workflow Steps
+Step 1: Identify Invalid Address Orders
+1. Log in to the Nexus Order Management System
+2. Navigate to Orders > Exception Queue or Invalid Address Orders
+3. Filter orders by status: Address Invalid or Ship-To Error
+4. Note the Order ID, Customer Name, and flagged address
+Step 2: Address Verification via Google Maps
+1. Open Google Maps in your browser
+2. Copy the flagged ship-to address from Nexus
+3. Paste it into the Google Maps search bar
+4. Verify the following:
+Street number and name exist
+City, State, and ZIP code match
+The location is a valid deliverable address (not a vacant lot, body of water, etc.)
+5. If the address is found with suggestions or corrections, note the corrected address
+6. If the address cannot be found, contact the customer to confirm their correct address
+Tip: Use Google Maps Street View to visually confirm the address is a real, deliverable
+location.
+Step 3: Correcting Address in Nexus
+1. Return to Nexus and open the flagged order by Order ID
+2. Click Edit Order or Modify Ship-To Address
+3. Update the following fields as needed:
+Field Example
+Street Address Line 1 123 Main Street
+Street Address Line 2 Apt 4B (if applicable)
+City Chicago
+State / Province IL
+ZIP / Postal Code 60601
+Country US
+4. 5. Click Validate Address (if available) to confirm the corrected address passes system
+validation
+Add a note/comment to the order log:
+Address corrected via Google Maps verification on [Date].
+Original: [Old Address]
+Corrected: [New Address]
+Updated by: [Your Name]
+6. Click Save Changes
+Step 4: Releasing the Order
+1. After saving the corrected address, navigate back to the order summary
+2. Confirm the order status has changed from Address Invalid to Address Verified or
+Ready to Ship
+3. Click Release Order or Submit for Fulfillment
+4. Confirm the release action in the pop-up dialog
+5. Verify the order now appears in the Active Orders or Fulfillment Queue
+Common Invalid Address Scenarios
+Scenario Resolution
+Missing ZIP code Look up correct ZIP on Google Maps or USPS
+Misspelled street name Correct spelling using Google Maps suggestion
+Wrong city/state combo Verify and update city and state to match ZIP
+Missing apartment/suite number Contact customer to confirm unit number
+PO Box not accepted Ask customer for physical street address
+Address not found at all Contact customer directly to confirm address
+Best Practices
+Always log the original and corrected address in the order notes
+Never guess an address — verify via Google Maps or contact the customer
+Check carrier restrictions — some carriers don’t deliver to PO Boxes or certain zip
+codes
+Escalate orders where the customer cannot be reached within 24 hours
+Document all corrections for audit and compliance purposes
+FAQs
+Q: What if Google Maps shows a different ZIP code than the customer provided?
+Use the ZIP code confirmed by Google Maps, as it is likely more accurate. Note both in
+the order comments.
+Q: Can I release a partially verified address?
+No. All address fields must be fully verified before releasing the order to prevent delivery
+failures.
+Q: What if the customer insists on an address Google Maps cannot verify?
+Escalate to your supervisor and place the order on hold until the address can be
+confirmed through alternative means (e.g., calling the customer).
+Q: How long should an order stay in the invalid address queue?
+Follow your company’s SLA — typically 24–48 hours before escalation.
+Escalation Contact
+If an address cannot be resolved within the standard timeframe, escalate to:
+Team Lead / Supervisor — for unresolvable addresses
+Customer Service — to contact the customer directly
+Carrier Support — to check if the address is deliverable in their network

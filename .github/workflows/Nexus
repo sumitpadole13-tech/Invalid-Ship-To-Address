@@ -1,0 +1,21 @@
+name: Release on Nexus Mods
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Nexus Mods Release
+        uses: pasmophobia/nexus-release@v1
+        with:
+          api_key: ${{ secrets.NEXUS_API_KEY }}
+          game: 'skyrim'              # Game short ID
+          mod_id: '12345'             # Your mod's numeric ID
+          file: 'path/to/your/file.zip'  # File to upload
+          version: ${{ github.ref }}  # Version tag
+          category: 'models'          # Optional: file category
